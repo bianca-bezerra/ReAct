@@ -46,7 +46,7 @@ const H1 = () => {
   );
 };
 
-function App() {
+function useContextComp() {
   const [contextState, setContextState] = useState(context);
   return (
     <GlobalContext.Provider value={{ contextState, setContextState }}>
@@ -55,4 +55,4 @@ function App() {
   );
 }
 
-export default App;
+export default useContextComp;
