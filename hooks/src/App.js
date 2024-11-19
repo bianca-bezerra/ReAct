@@ -1,14 +1,8 @@
 import React from 'react';
 import './App.css';
-import { AppContext } from './contexts/AppContext';
-import { Div } from './components/Div';
 
 function App() {
-  return (
-    <AppContext>
-      <Div />
-    </AppContext>
-  );
+  return <div></div>;
 }
 
 export default App;
